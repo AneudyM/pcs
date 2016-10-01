@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>search result</title>
+<head>Resultados de busqueda</title>
 <meta charset="utf-8">    
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -54,8 +53,8 @@
             <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo_smaller.png" alt="logo"></a></h1>
             <ul class="address_icon">
                 <li><span class="fa fa-map-marker"></span>- </li>
-                <li><span class="fa fa-envelope"></span><a href="#">info@bellarix.com</a></li>
-                <li><span class="fa fa-phone"></span>+1 809 785 9935</li>
+                <li><span class="fa fa-envelope"></span><a href="#">info@pcs.com.do</a></li>
+                <li><span class="fa fa-phone"></span>+1(809) 000 0000</li>
             </ul>
         </div>
     </div>
@@ -63,7 +62,7 @@
         <div class="container">
             <ul class="nav sf-menu clearfix">
                 <li><a href="index.html">Home</a></li>
-                <li class="sub-menu"><a href="index-1.html">Nosotros</a><span></span>
+                <li class="sub-menu"><a href="nosotros.html">Nosotros</a><span></span>
                 <!--<ul class="submenu">
         				<li><a href="#">history</a></li>
         				<li><a href="#">news</a><span class="fa fa-angle-right"></span>
@@ -75,9 +74,9 @@
         				<li><a href="#">testimonials</a></li>
                     </ul>-->
                 </li>
-                <li><a href="index-2.html">Servicios</a></li>
-                <li><a href="index-3.html">Precios</a></li>
-                <li><a href="index-4.html">Contactos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
             </ul>
             <div class="js-search flt__l flt__n-xl">
             	<div class="toggle"></div>
@@ -94,7 +93,7 @@
 <div class="content indent">
     <!--content-->
     <div class="container">
-        <h2>Search result:</h2>
+        <h2>Resultado de busqueda:</h2>
         <div id="search-results"></div>
     </div>
 </div>
@@ -106,7 +105,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="maxheight3">
                         <p class="title">copyright</p>
-                        <p class="priv">&copy; <em id="copyright-year"></em> <a href="index-5.html">Privacy Policy</a></p>
+                        <p class="priv">&copy; <em id="copyright-year"></em> <a href="privacy.html">Privacy Policy</a></p>
                         <strong>Pcs.com.do</strong>
                         <ul class="follow-list">
                             <li><a href="#">twitter</a></li>
@@ -117,8 +116,8 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="maxheight3">
-                        <p class="title">Address</p>
-                        <p>- <br>-  <br>Phone:  +1 809 785 9935 <br><a href="#">info@bellarix.com</a></p>
+                        <p class="title">Dirección</p>
+                        <p>- <br>-  <br>Telefono:  +1 809 785 9935 <br><a href="#">info@bellarix.com</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
