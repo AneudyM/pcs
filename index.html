@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home | Professional Career Services</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/search-form.css">
+<link rel="stylesheet" href="fonts/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.equalheights.js"></script> 
+<script src="js/camera.js"></script>
+<script src="js/sForm.js"></script> 
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script>
+<script>
+$(window).load(function() {
+    $(function() {
+        $('#foo1').carouFredSel({
+			auto: false,
+			responsive: true,
+			width: '100%',
+			scroll: 1,
+            pagination  : "#foo2_pag",
+			items: {
+				height: 'auto',
+				width:370,
+				visible: {
+					min: 1,
+					max: 1
+				}
+			},
+			mousewheel: true,
+			swipe: {
+				onMouse: true,
+				onTouch: true
+			}
+		});
+	}); 	 				
+});
+</script>
+
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/wow/wow.js"></script>
+<script src="js/wow/device.min.js"></script>
+<script>
+    $(document).ready(function () {       
+      if ($('html').hasClass('desktop')) {
+        new WOW().init();
+      }   
+    });
+</script>
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+    <div id="ie6-alert" style="width: 100%; text-align:center;">
+    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
+      <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" />
+        <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
+      </map>
+  </div>
+  <![endif]-->
+</head>
+<body>
+<!--header-->
+<header class="indent clearfix">
+    <div class="follow-box">
+        <div class="container"> 
+            <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo_smaller.png" alt="logo"></a></h1>
+            <ul class="address_icon">
+                <li><span></span><a href="#">Login</a></li>
+                <li><span></span><a href="#">Register</a></li>
+                <li><span class="fa fa-map-marker"></span>- </li>
+                <li><span class="fa fa-envelope"></span><a href="#">info@bellarix.com</a></li>
+                <li><span class="fa fa-phone"></span>+1 809 785 9935</li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
+        <div class="container">
+            <ul class="nav sf-menu clearfix">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index-1.html">Nosotros</a><span></span>
+                <!--<ul class="submenu">
+        				<li><a href="#">Historia</a></li>
+        				<li><a href="#">Noticias</a><span class="fa fa-angle-right"></span>
+                        <ul class="submenu">
+                                <li><a href="#">Recientes</a></li>
+                                <li><a href="#">archive</a></li>
+                            </ul>
+                        </li>
+        				<li><a href="#">Testimonios</a></li>
+                    </ul>-->
+                </li>
+                <li><a href="index-2.html">Servicios</a></li>
+                <li><a href="index-3.html">Precios</a></li>
+                <li><a href="index-4.html">Contactos</a></li>
+                <li><a href="capp/capp.php">Career Assessment Test</a></li>
+                <li><a href="blog/">Blog</a></li>
+            </ul>
+            <div class="js-search flt__l flt__n-xl">
+            	<div class="toggle"></div>
+            	<form id="search" class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+            		<label class="input" for="in">
+            			<input id="in" type="text" name="s" value="Search" onblur="if(this.value == '') { this.value='Search'}" onfocus="if (this.value == 'Search') {this.value=''}">
+                        <a href="#" onClick="document.getElementById('search').submit()" class="js-find"></a>
+            		</label>
+            	</form>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="slider">  
+    <div class="camera_wrap">
+        <div data-src="img/picture1.jpg"><div class="camera-caption fadeIn"><p class="title">Con nuestro CV profesional <br>tus entrevistas de trabajo <br>son garantizadas</p><a href="#" class="btn-default btn1">Ordena ahora!</a></div></div>
+        <div data-src="img/picture2.jpg"><div class="camera-caption fadeIn"><p class="title">CVs profesionales <br>para toda descripcion de trabajo</p><a href="#" class="btn-default btn1">ordena ahora!</a></div></div>
+        <div data-src="img/picture3.jpg"><div class="camera-caption fadeIn"><p class="title">Tu primer paso <br>en escalar la escalera del servicio</p><a href="#" class="btn-default btn1">ordena ahora!</a></div></div>
+    </div>
+</div>
+<!--content-->
+<div class="content"> 
+    <div class="thumb-box">
+        <div class="container">
+            <strong>Bienvenido a Professional Career Services!</strong>
+            <p>Estamos aqui para guiarte en tu busqueda de mejoria para tu carrera profesional.</p>
+            
+        </div>
+    </div>
+    <div class="thumb-box1">
+        <div class="container">
+            <h2>Servicios de creacion de curriculums</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay="0.15s">
+                    <div class="thumb-pad1 maxheight">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_icon1.png" alt=""></figure>
+                            <div class="caption">
+                                <a href="#">Entry level</a>
+                                <p>Acabas de empezar? No te preocupes por la experiencia. Podemos encontrar tus mejores atributos mientras mostramos tu ilimitado potencial.</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInLeft">
+                    <div class="thumb-pad1 maxheight">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_icon2.png" alt=""></figure>
+                            <div class="caption">
+                                <a href="#">Profesional</a>
+                                <p>Este tipo de CV es el mejor para aquellos que ya estan establecidos en un campo en particular o tienen un historial impesionante que valide un cambio de trabajo.</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInRight">
+                    <div class="thumb-pad1 maxheight">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_icon3.png" alt=""></figure>
+                            <div class="caption">
+                                <a href="#">Ejecutivo</a>
+                                <p>Con este CV los logros en su carrera seran enfatizados mientras se destaca su experiencia como un ejecutivo a nivel profesional.</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 wow fadeInRight" data-wow-delay="0.15s">
+                    <div class="thumb-pad1 maxheight">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_icon4.png" alt=""></figure>
+                            <div class="caption">
+                                <a href="#">Cambio de carrera</a>
+                                <p>Nuestros expertos le ayudaran a identificar sus habilidades transferibles y sus cualificaciones, para que asi pueda empezar una nueva carrera hoy.</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="stellar-section">
+        <div class="thumb-box2" data-stellar-background-ratio="0.1">
+                <div class="row">   
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="list_carousel1 responsive clearfix">
+                            <ul id="foo1">
+                                <li>
+                                
+                                    <strong>Quieres saber cual es la ocupacion perfecta para ti?</strong>
+                                    <p>Toma nuestra prueba de envaluacion y descubrelo.</p>
+                                    <!--<p class="name">Aneudy Mota (CV consultant)</p>-->
+                                </li>
+                            <!--<li>
+                                    <strong>Free job hunting advice from our resume experts</strong>
+                                    <p><q>Job hunting advice 2</q></p>
+                                    <p class="name">Aneudy Mota (CV consultant)</p>
+                                </li>
+                                <li>
+                                    <strong>Free job hunting advice from our resume experts</strong>
+                                    <p><q>Job hunting advice 3</q></p>
+                                    <p class="name">Aneudy Mota (CV consultant)</p>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <div class="foo-btn clearfix">
+                            <div class="pagination" id="foo2_pag"></div>
+                        </div>
+                        <a href="capp/capp.php" class="btn-default btn2">Click para mas detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 wow fadeInLeft">
+                    <h2>Edicion de curriculum</h2>
+                    <h3>Editamos su curriculum actual</h3>
+                    <div class="thumb-pad2">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_pic1.jpg" alt=""></figure>
+                            <div class="caption">
+                                <h4>Trae tu curriculm actual</h4>
+                                <p>Puedes traer tu curriculum ya existente y te ayudaremos a mejorarlo para que obtengas mas entrevistas.</p>
+                            </div>  
+                        </div>
+                        <a href="#" class="btn-default btn3">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInRight">
+                    <h2>Por que elegirnos?</h2>
+                    <h3>Title to this</h3>
+                    <div class="thumb-pad2">
+                        <div class="thumbnail">
+                            <figure><img src="img/page1_pic2.jpg" alt=""></figure>
+                            <div class="caption">
+                                <h4>Please check all the below reasons </h4>
+                                <ul class="list1">
+                                    <li><a href="#">Option 1</a></li>
+                                    <li><a href="#">Option 2</a></li>
+                                    <li><a href="#">Option 3</a></li>
+                                </ul>
+                            </div>  
+                        </div>
+                        <a href="#" class="btn-default btn3">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thumb-box4">
+        <div class="container">
+            <div class="box">
+                <div class="box1">
+                    <strong>registrate para recibir noticias y ofertas</strong>
+                    <span>Suscribete a nuestra lista de correo</span>
+                </div>
+                <form id="newsletter" accept-charset="utf-8">
+        			<div class="success">Su solicitud de suscripcion ha sido enviada!</div>
+                    <label class="email">
+        		    	<input type="email" value="">
+        		    	<span class="error">*Esta no es una direccion de email valida.</span>
+        		    </label>
+                    <a href="#" data-type="submit" class="btn-default btn4">Enviar</a>
+        		</form>
+            </div>
+            <ul class="list2">
+                <li><a href="#"><img src="img/company1.png" alt=""></a></li>
+                <li><a href="#"><img src="img/company2.png" alt=""></a></li>
+                <li><a href="#"><img src="img/company3.png" alt=""></a></li>
+                <li><a href="#"><img src="img/company4.png" alt=""></a></li>
+                <li><a href="#"><img src="img/company5.png" alt=""></a></li>
+                <li><a href="#"><img src="img/company6.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="tools-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="maxheight3">
+                        <p class="title">copyright</p>
+                        <p class="priv">&copy; <em id="copyright-year"></em> <a href="index-5.html">Privacy Policy</a></p>
+                        <strong>Pcs.com.do</strong>
+                        <ul class="follow-list">
+                            <li><a href="#">twitter</a></li>
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="maxheight3">
+                        <p class="title">Direccion</p>
+                        <p>- <br>- <br>Telefono:  +1 809 785 9935 <br><a href="#">info@bellarix.com</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="maxheight3">
+                        <p class="title">Menu de soporte</p>
+                        <ul class="list1-1">
+                            <li><a href="#">Perdio su Contraseña?</a></li>
+                            <li><a href="#">Olvido su Usuario?</a></li>
+                            <li><a href="#">Su Membresia</a></li>
+                            <li><a href="#">Su Cuenta</a></li>
+                            <li><a href="#">Foro de Soporte</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="indent maxheight3">
+                        <p class="title">Sobre Nosotros</p>
+                        <ul class="list1-1">
+                            <li><a href="#">Enfoque en el cliente</a></li>
+                            <li><a href="#">Desempeño</a></li>
+                            <li><a href="#">Afiliados</a></li>
+                            <li><a href="#">Revision de CV</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
