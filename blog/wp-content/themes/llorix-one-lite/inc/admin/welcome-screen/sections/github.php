@@ -1,6 +1,11 @@
 <?php
 /**
  * Github
+<<<<<<< HEAD
+=======
+ *
+ * @package llorix-one-lite
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
  */
 ?>
 
@@ -12,7 +17,11 @@
 
 	<div class="llorix-one-lite-tab-pane-half llorix-one-lite-tab-pane-first-half">
 
+<<<<<<< HEAD
 		<p><strong><?php esc_html_e( 'Found a bug? Want to contribute with a fix or create a new feature?','llorix-one-lite'); ?></strong></p>
+=======
+		<p><strong><?php esc_html_e( 'Found a bug? Want to contribute with a fix or create a new feature?','llorix-one-lite' ); ?></strong></p>
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 
 		<p><?php esc_html_e( 'GitHub is the place to go!','llorix-one-lite' ); ?></p>
 
@@ -39,7 +48,11 @@
 
 		<h4><?php esc_html_e( 'Are you enjoying Llorix One Lite?', 'llorix-one-lite' ); ?></h4>
 
+<<<<<<< HEAD
 		<p class="review-link"><?php echo sprintf( esc_html__( 'Rate our theme on %sWordPress.org%s. We\'d really appreciate it!', 'llorix-one-lite' ), '<a href="https://wordpress.org/support/theme/llorix-one-lite/">', '</a>' ); ?></p>
+=======
+		<p class="review-link"><?php echo sprintf( esc_html__( 'Rate our theme on %1$sWordPress.org%1$s. We\'d really appreciate it!', 'llorix-one-lite' ), '<a href="https://wordpress.org/support/theme/llorix-one-lite/">', '</a>' ); ?></p>
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 
 		<p><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span></p>
 

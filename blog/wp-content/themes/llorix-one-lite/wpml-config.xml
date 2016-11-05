@@ -16,6 +16,7 @@
 			<key name="llorix_one_lite_copyright" />
 			<key name="llorix_one_lite_our_services_title" />
 			<key name="llorix_one_lite_our_services_subtitle" />
+<<<<<<< HEAD
 			<key name="llorix_one_lite_services_content" />
 			<key name="llorix_one_lite_our_team_title" />
 			<key name="llorix_one_lite_our_team_subtitle" />
@@ -23,6 +24,12 @@
 			<key name="llorix_one_lite_happy_customers_title" />
 			<key name="llorix_one_lite_happy_customers_subtitle" />
 			<key name="llorix_one_lite_testimonials_content" />
+=======
+			<key name="llorix_one_lite_our_team_title" />
+			<key name="llorix_one_lite_our_team_subtitle" />
+			<key name="llorix_one_lite_happy_customers_title" />
+			<key name="llorix_one_lite_happy_customers_subtitle" />
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 		</key>
 	</admin-texts>
 </wpml-config>

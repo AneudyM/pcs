@@ -8,7 +8,10 @@
     font-weight: 600;
     margin: 1px 0 0 2px;
     vertical-align: top;
+<<<<<<< HEAD
     -webkit-border-radius: 10px;
+=======
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
     border-radius: 10px;
     z-index: 26;
 }

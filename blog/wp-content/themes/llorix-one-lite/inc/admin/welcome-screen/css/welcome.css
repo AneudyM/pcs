@@ -100,13 +100,19 @@
     top: 100%;
     left: 0;
     overflow: auto;
+<<<<<<< HEAD
     box-sizing: border-box;
+=======
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
     padding: 0;
     max-width: 100%;
     height: 100%;
     background-color: #000000;
     color: #ffffff;
     -webkit-transition: all 300ms ease-out;
+<<<<<<< HEAD
     -moz-transition: all 300ms ease-out;
     -ms-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
@@ -115,6 +121,10 @@
     -moz-transition-delay: 500ms;
     -ms-transition-delay: 500ms;
     -o-transition-delay: 500ms;
+=======
+    transition: all 300ms ease-out;
+    -webkit-transition-delay: 500ms;
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
     transition-delay: 500ms;
 }
 
@@ -152,7 +162,10 @@
     font-weight: 600;
     margin: 1px 0 0 2px;
     vertical-align: top;
+<<<<<<< HEAD
     -webkit-border-radius: 10px;
+=======
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
     border-radius: 10px;
     z-index: 26;
 }

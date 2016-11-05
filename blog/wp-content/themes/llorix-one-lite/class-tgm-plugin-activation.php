@@ -3597,6 +3597,7 @@ if ( ! class_exists( 'TGMPA_Utils' ) ) {
 
 			if ( is_bool( $value ) ) {
 				return $value;
+<<<<<<< HEAD
 			} else if ( is_int( $value ) && ( 0 === $value || 1 === $value ) ) {
 				return (bool) $value;
 			} else if ( ( is_float( $value ) && ! is_nan( $value ) ) && ( (float) 0 === $value || (float) 1 === $value ) ) {
@@ -3606,6 +3607,17 @@ if ( ! class_exists( 'TGMPA_Utils' ) ) {
 				if ( in_array( $value, $true, true ) ) {
 					return true;
 				} else if ( in_array( $value, $false, true ) ) {
+=======
+			} elseif ( is_int( $value ) && ( 0 === $value || 1 === $value ) ) {
+				return (bool) $value;
+			} elseif ( ( is_float( $value ) && ! is_nan( $value ) ) && ( (float) 0 === $value || (float) 1 === $value ) ) {
+				return (bool) $value;
+			} elseif ( is_string( $value ) ) {
+				$value = trim( $value );
+				if ( in_array( $value, $true, true ) ) {
+					return true;
+				} elseif ( in_array( $value, $false, true ) ) {
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 					return false;
 				} else {
 					return false;
@@ -3615,4 +3627,8 @@ if ( ! class_exists( 'TGMPA_Utils' ) ) {
 			return false;
 		}
 	} // End of class TGMPA_Utils
+<<<<<<< HEAD
 } // End of class_exists wrapper
+=======
+} // End of class_exists wrapper
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8

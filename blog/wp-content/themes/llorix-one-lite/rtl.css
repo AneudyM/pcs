@@ -239,8 +239,11 @@ li.galcolumn{
     margin-right:0;
     padding-right:100px;
     border-right:none;
+<<<<<<< HEAD
     -webkit-border-radius:3px 0 0 3px;
     -moz-border-radius:3px 0 0 3px;
+=======
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
     border-radius:3px 0 0 3px;
 }
 .timeline-box-wrap .info h1{
@@ -274,8 +277,11 @@ a.control_next span{
 }
 a.control_prev{
     left:0;
+<<<<<<< HEAD
     -webkit-border-radius:2px 0 0 2px;
     -moz-border-radius:2px 0 0 2px;
+=======
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
     border-radius:2px 0 0 2px;
 }
 a.control_prev span{
@@ -431,9 +437,13 @@ a.control_prev span{
 }
 .woocommerce ul.products li.product a.added_to_cart{
     padding:6px 6px 6px 10px;
+<<<<<<< HEAD
     margin-right:-5px;
     -webkit-border-radius:3px 0 0 3px;
     -moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+=======
+    margin-right:-5px;border-radius:3px 0 0 3px;}
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 .woocommerce-account .addresses .title .edit, 
 .woocommerce-account ul.digital-downloads li .count{
     float:right;

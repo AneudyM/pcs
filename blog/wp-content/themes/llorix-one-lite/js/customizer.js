@@ -136,7 +136,11 @@
 			} else {
 				llorix_one_lite_header.find( '.intro-section .intro' ).addClass( 'llorix_one_lite_only_customizer' );
 			}
+<<<<<<< HEAD
 			llorix_one_lite_header.find( '.intro-section .intro' ).text( to );
+=======
+			llorix_one_lite_header.find( '.intro-section .intro' ).html( to );
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 	    } );
 		
     });
@@ -304,7 +308,11 @@
 			if( to !== '' ) {
 				ribbon_wrap.removeClass( 'llorix_one_lite_only_customizer' );
 				ribbon_wrap_header.removeClass( 'llorix_one_lite_only_customizer' );
+<<<<<<< HEAD
 				ribbon_wrap_header.text( to );
+=======
+				ribbon_wrap_header.html( to );
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 			} else {
 				ribbon_wrap_header.addClass( 'llorix_one_lite_only_customizer' );
 				if( ribbon_wrap_button.hasClass( 'llorix_one_lite_only_customizer' ) ){

@@ -11,7 +11,11 @@
  * @link        http://themeisle.com
  */
 
+<<<<<<< HEAD
 $llorix_one_lite_our_story_image = get_theme_mod( 'llorix_one_lite_our_story_image', llorix_one_lite_get_file( '/images/about-us.png' ) );
+=======
+$llorix_one_lite_our_story_image = get_theme_mod( 'llorix_one_lite_our_story_image', apply_filters( 'llorix_one_lite_our_story_image_filter',llorix_one_lite_get_file( '/images/about-us.png' ) ) );
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 $llorix_one_lite_our_story_title = get_theme_mod( 'llorix_one_lite_our_story_title', esc_html__( 'Our Story','llorix-one-lite' ) );
 $llorix_one_lite_our_story_text = get_theme_mod( 'llorix_one_lite_our_story_text', esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','llorix-one-lite' ) );
 $llorix_one_lite_our_story_show = get_theme_mod( 'llorix_one_lite_our_story_show' );
@@ -76,7 +80,13 @@ if ( (isset( $llorix_one_lite_our_story_show ) && $llorix_one_lite_our_story_sho
 								<div class="brief-content-text llorix_one_lite_only_customizer"></div>
 								<?php
 							}
+<<<<<<< HEAD
 						} ?>
+=======
+						}
+						llorix_one_lite_home_about_section_content_one_after_trigger();
+						?>
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 					</div>
 				</div>
 			</div>

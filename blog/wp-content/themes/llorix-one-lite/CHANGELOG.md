@@ -1,4 +1,13 @@
 
+<<<<<<< HEAD
+=======
+### 0.1.21 - 04/11/2016
+**Changes:** 
+- Added filters and hooks to improve child themes creation
+- Rearange upsells in customize
+- Added Grunt tasks and fixed all grunt issues
+
+>>>>>>> 9bcb1a976705dbc2adef6f6607219b55055c73f8
 ### 0.1.20 - 21/09/2016
 **Changes:** 
 - Add recommandated child theme
