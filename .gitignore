@@ -1,0 +1,4 @@
+
+# Exclude NetBeans IDE project Directory
+/nbproject/
+/blog/
